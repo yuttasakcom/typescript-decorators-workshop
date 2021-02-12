@@ -7,6 +7,7 @@
 ## Class Decorator
 
 ```javascript
+//-------------SocketIO Decorator------------------
 import { io } from '..';
 
 export function SocketIO(chanel: string) {
@@ -25,7 +26,14 @@ export function SocketIO(chanel: string) {
   };
 }
 
-//-------------------------------
+//---------------Logger Decorator----------------
+
+export function Logger(constructor: Function) {
+  console.log(`Logging...`);
+  console.log(constructor);
+}
+
+//---------------DemoController----------------
 
 import { Controller, Get } from 'routing-controllers';
 
