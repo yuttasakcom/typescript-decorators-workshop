@@ -4,7 +4,7 @@ import { Logger } from '../decorators/logger.decorator';
 import { SocketIO } from '../decorators/socketio.decorator';
 
 @Controller('/demo')
-@SocketIO('demo')
+@SocketIO('message')
 @Logger
 class DemoController {
   @Get()
