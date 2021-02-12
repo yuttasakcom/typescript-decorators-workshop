@@ -2,7 +2,7 @@
 
 ## Table of Contents
 
-- [Class Decorator](#Class Decorator)
+- [Class Decorator](#Class-Decorator)
 
 ## Class Decorator
 
