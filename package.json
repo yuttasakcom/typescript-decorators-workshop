@@ -1,0 +1,30 @@
+{
+  "name": "typescript-decorators-workshop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.ts --exec ts-node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuttasakcom/typescript-decorators-workshop.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yuttasakcom/typescript-decorators-workshop/issues"
+  },
+  "homepage": "https://github.com/yuttasakcom/typescript-decorators-workshop#readme",
+  "devDependencies": {
+    "@types/koa": "^2.11.7",
+    "nodemon": "^2.0.7",
+    "ts-node": "^9.1.1"
+  },
+  "dependencies": {
+    "koa": "^2.13.1",
+    "reflect-metadata": "^0.1.13",
+    "routing-controllers": "^0.9.0-alpha.6"
+  }
+}
